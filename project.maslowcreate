@@ -27,10 +27,27 @@
         {
             "atomType": "Molecule",
             "name": "Deckle",
-            "x": 0.2369230769230769,
-            "y": 0.3795180722891566,
+            "x": 0.2594871794871795,
+            "y": 0.42168674698795183,
             "uniqueID": 775580,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Box length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Box width",
+                    "ioValue": 14
+                },
+                {
+                    "name": "wood thickness",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Box height",
+                    "ioValue": 3
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -44,22 +61,69 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.25846153846153846,
-                    "y": 0.45180722891566266,
+                    "x": 0.2882051282051282,
+                    "y": 0.31626506024096385,
                     "uniqueID": 815727,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 14
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 3
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Box length",
+                    "x": 0.013333333333333334,
+                    "y": 0.713855421686747,
+                    "uniqueID": 956448,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Box width",
+                    "x": 0.013333333333333334,
+                    "y": 0.6265060240963854,
+                    "uniqueID": 197274,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "wood thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.42168674698795183,
+                    "uniqueID": 498619,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Box height",
+                    "x": 0.013333333333333334,
+                    "y": 0.5120481927710844,
+                    "uniqueID": 696437,
+                    "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 197274,
+                    "ap2ID": 815727
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 696437,
+                    "ap2ID": 815727
+                }
+            ],
             "fileTypeVersion": 1,
             "simplify": false,
             "unitsIndex": 0
