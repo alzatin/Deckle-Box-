@@ -1,10 +1,19 @@
 {
     "atomType": "Molecule",
-    "name": "Deckle Box ",
+    "name": "Deckle",
     "x": 0,
     "y": 0,
     "uniqueID": 402583,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "width",
+            "ioValue": 10
+        },
+        {
+            "name": "height",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -13,6 +22,62 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 772005,
+            "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Deckle",
+            "x": 0.2369230769230769,
+            "y": 0.3795180722891566,
+            "uniqueID": 775580,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 434268,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.25846153846153846,
+                    "y": 0.45180722891566266,
+                    "uniqueID": 815727,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
+        },
+        {
+            "atomType": "Input",
+            "name": "width",
+            "x": 0.013333333333333334,
+            "y": 0.6385542168674698,
+            "uniqueID": 752606,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "height",
+            "x": 0.013333333333333334,
+            "y": 0.5,
+            "uniqueID": 872277,
             "ioValues": []
         }
     ],
