@@ -53,8 +53,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.2882051282051282,
-                    "y": 0.31626506024096385,
+                    "x": 0.2553846153846154,
+                    "y": 0.22590361445783133,
                     "uniqueID": 815727,
                     "ioValues": [
                         {
@@ -74,6 +74,23 @@
                     "y": 0.5120481927710844,
                     "uniqueID": 696437,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.39897435897435896,
+                    "y": 0.42168674698795183,
+                    "uniqueID": 650484,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 815727
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 3
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -100,21 +117,76 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.4594871794871795,
-                    "y": 0.39457831325301207,
-                    "uniqueID": 650484,
+                    "atomType": "Molecule",
+                    "name": "finger joints 1",
+                    "x": 0.25435897435897437,
+                    "y": 0.6596385542168675,
+                    "uniqueID": 674867,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 815727
+                            "name": "wood thickness",
+                            "ioValue": 10
                         },
                         {
-                            "name": "height",
-                            "ioValue": 3
+                            "name": "Box height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Box width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Box length",
+                            "ioValue": 10
                         }
-                    ]
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 737383,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "wood thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.42168674698795183,
+                            "uniqueID": 891907,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Box height",
+                            "x": 0.013333333333333334,
+                            "y": 0.5120481927710844,
+                            "uniqueID": 346165,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Box width",
+                            "x": 0.013333333333333334,
+                            "y": 0.6265060240963854,
+                            "uniqueID": 951260,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Box length",
+                            "x": 0.013333333333333334,
+                            "y": 0.713855421686747,
+                            "uniqueID": 192283,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "simplify": false,
+                    "unitsIndex": 0
                 }
             ],
             "allConnectors": [
