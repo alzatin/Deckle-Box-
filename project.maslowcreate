@@ -17,14 +17,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 772005,
-            "ioValues": []
-        },
-        {
             "atomType": "Molecule",
             "name": "Deckle",
             "x": 0.2594871794871795,
@@ -41,7 +33,7 @@
                 },
                 {
                     "name": "wood thickness",
-                    "ioValue": 1
+                    "ioValue": 0.8
                 },
                 {
                     "name": "Box height",
@@ -51,11 +43,11 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 434268,
+                    "atomType": "Input",
+                    "name": "wood thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.42168674698795183,
+                    "uniqueID": 498619,
                     "ioValues": []
                 },
                 {
@@ -71,16 +63,16 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 3
+                            "ioValue": 0.8
                         }
                     ]
                 },
                 {
                     "atomType": "Input",
-                    "name": "Box length",
+                    "name": "Box height",
                     "x": 0.013333333333333334,
-                    "y": 0.713855421686747,
-                    "uniqueID": 956448,
+                    "y": 0.5120481927710844,
+                    "uniqueID": 696437,
                     "ioValues": []
                 },
                 {
@@ -93,40 +85,79 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "wood thickness",
+                    "name": "Box length",
                     "x": 0.013333333333333334,
-                    "y": 0.42168674698795183,
-                    "uniqueID": 498619,
+                    "y": 0.713855421686747,
+                    "uniqueID": 956448,
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Box height",
-                    "x": 0.013333333333333334,
-                    "y": 0.5120481927710844,
-                    "uniqueID": 696437,
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 434268,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4594871794871795,
+                    "y": 0.39457831325301207,
+                    "uniqueID": 650484,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 815727
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 3
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 498619,
+                    "ap2ID": 815727
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 815727,
+                    "ap2ID": 650484
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 696437,
+                    "ap2ID": 650484
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap2Primary": false,
                     "ap1ID": 197274,
                     "ap2ID": 815727
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y length",
-                    "ap2Primary": false,
-                    "ap1ID": 696437,
-                    "ap2ID": 815727
                 }
             ],
             "fileTypeVersion": 1,
             "simplify": false,
             "unitsIndex": 0
+        },
+        {
+            "atomType": "Input",
+            "name": "height",
+            "x": 0.013333333333333334,
+            "y": 0.5,
+            "uniqueID": 872277,
+            "ioValues": []
         },
         {
             "atomType": "Input",
@@ -137,11 +168,11 @@
             "ioValues": []
         },
         {
-            "atomType": "Input",
-            "name": "height",
-            "x": 0.013333333333333334,
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
             "y": 0.5,
-            "uniqueID": 872277,
+            "uniqueID": 772005,
             "ioValues": []
         }
     ],
