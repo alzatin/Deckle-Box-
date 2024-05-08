@@ -116,28 +116,16 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "Box width",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Box length",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "Dado width",
-                            "ioValue": 10
+                            "ioValue": 0.75
+                        },
+                        {
+                            "name": "dado height",
+                            "ioValue": 0.75
                         }
                     ],
                     "topLevel": false,
                     "allAtoms": [
-                        {
-                            "atomType": "Input",
-                            "name": "wood thickness",
-                            "x": 0.013333333333333334,
-                            "y": 0.8433734939759037,
-                            "uniqueID": 891907,
-                            "ioValues": []
-                        },
                         {
                             "atomType": "Input",
                             "name": "Box height",
@@ -148,18 +136,35 @@
                         },
                         {
                             "atomType": "Input",
-                            "name": "Box width",
+                            "name": "Dado width",
                             "x": 0.013333333333333334,
-                            "y": 0.6265060240963854,
-                            "uniqueID": 951260,
+                            "y": 0.42771084337349397,
+                            "uniqueID": 736571,
                             "ioValues": []
                         },
                         {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.3035897435897436,
+                            "y": 0.3674698795180723,
+                            "uniqueID": 878371,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 0.75
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 0.75
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Input",
-                            "name": "Box length",
+                            "name": "wood thickness",
                             "x": 0.013333333333333334,
-                            "y": 0.713855421686747,
-                            "uniqueID": 192283,
+                            "y": 0.8433734939759037,
+                            "uniqueID": 891907,
                             "ioValues": []
                         },
                         {
@@ -171,36 +176,11 @@
                             "ioValues": []
                         },
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.30564102564102563,
-                            "y": 0.3765060240963855,
-                            "uniqueID": 878371,
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Dado width",
-                            "x": 0.013333333333333334,
-                            "y": 0.42771084337349397,
-                            "uniqueID": 736571,
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "Input",
                             "name": "dado height",
                             "x": 0.013333333333333334,
-                            "y": 0.5391566265060241,
-                            "uniqueID": 602513,
+                            "y": 0.6445783132530121,
+                            "uniqueID": 637060,
                             "ioValues": []
                         }
                     ],
@@ -216,7 +196,7 @@
                             "ap1Name": "number or geometry",
                             "ap2Name": "y length",
                             "ap2Primary": false,
-                            "ap1ID": 602513,
+                            "ap1ID": 637060,
                             "ap2ID": 878371
                         }
                     ],
