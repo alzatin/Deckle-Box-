@@ -419,8 +419,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5809426229508197,
-                    "y": 0.3885542168674699,
+                    "x": 0.5799180327868853,
+                    "y": 0.3403614457831325,
                     "uniqueID": 213386,
                     "ioValues": [
                         {
@@ -484,7 +484,7 @@
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 0.6608606557377049,
-                    "y": 0.42771084337349397,
+                    "y": 0.4397590361445783,
                     "uniqueID": 945502,
                     "ioValues": [
                         {
@@ -500,11 +500,16 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.7817622950819673,
-                    "y": 0.1686746987951807,
+                    "x": 0.7961065573770492,
+                    "y": 0.13855421686746988,
                     "uniqueID": 975616,
-                    "ioValues": [],
-                    "selectedColorIndex": 0
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 396302
+                        }
+                    ],
+                    "selectedColorIndex": 2
                 },
                 {
                     "atomType": "Extrude",
@@ -594,24 +599,24 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8688524590163935,
-                    "y": 0.3403614457831325,
+                    "x": 0.8729508196721311,
+                    "y": 0.3704819277108434,
                     "uniqueID": 475239,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
-                            "ioValue": 945502
+                            "name": "3D shape 5",
+                            "ioValue": 975616
                         },
                         {
-                            "name": "3D shape 2",
-                            "ioValue": 396302
+                            "name": "3D shape 6",
+                            "ioValue": 554851
                         },
                         {
-                            "name": "3D shape 3",
+                            "name": "3D shape 7",
                             "ioValue": 142965
                         },
                         {
-                            "name": "3D shape 4",
+                            "name": "3D shape 8",
                             "ioValue": 556209
                         }
                     ]
@@ -671,6 +676,20 @@
                             "ioValue": 475239
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.7377049180327868,
+                    "y": 0.3042168674698795,
+                    "uniqueID": 554851,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 945502
+                        }
+                    ],
+                    "selectedColorIndex": 2
                 }
             ],
             "allConnectors": [
@@ -830,10 +849,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 396302,
-                    "ap2ID": 475239
+                    "ap2ID": 975616
                 },
                 {
                     "ap1Name": "geometry",
@@ -893,17 +912,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 945502,
-                    "ap2ID": 475239
+                    "ap2ID": 396302
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 945502,
-                    "ap2ID": 396302
+                    "ap2ID": 554851
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 975616,
+                    "ap2ID": 475239
                 },
                 {
                     "ap1Name": "geometry",
@@ -921,7 +947,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
+                    "ap2Name": "3D shape 7",
                     "ap2Primary": false,
                     "ap1ID": 142965,
                     "ap2ID": 475239
@@ -956,9 +982,16 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
+                    "ap2Name": "3D shape 8",
                     "ap2Primary": false,
                     "ap1ID": 556209,
+                    "ap2ID": 475239
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 554851,
                     "ap2ID": 475239
                 }
             ],
