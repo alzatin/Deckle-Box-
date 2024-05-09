@@ -481,8 +481,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8565573770491802,
-                    "y": 0.41867469879518077,
+                    "x": 0.8545081967213114,
+                    "y": 0.4126506024096385,
                     "uniqueID": 475239,
                     "ioValues": [
                         {
@@ -492,6 +492,10 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 396302
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 142965
                         }
                     ]
                 },
@@ -523,8 +527,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5973360655737705,
-                    "y": 0.7921686746987953,
+                    "x": 0.7069672131147541,
+                    "y": 0.7590361445783133,
                     "uniqueID": 142965,
                     "ioValues": [
                         {
@@ -537,7 +541,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         },
                         {
                             "name": "zDist",
@@ -557,6 +561,20 @@
                             "ioValue": 475239
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x/2",
+                    "x": 0.5102459016393442,
+                    "y": 0.9638554216867469,
+                    "uniqueID": 664765,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        }
+                    ],
+                    "currentEquation": "x/2"
                 }
             ],
             "allConnectors": [
@@ -687,6 +705,13 @@
                     "ap2ID": 464294
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 956448,
+                    "ap2ID": 664765
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
@@ -740,6 +765,20 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 874408,
+                    "ap2ID": 142965
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 142965,
+                    "ap2ID": 475239
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 664765,
                     "ap2ID": 142965
                 }
             ],
