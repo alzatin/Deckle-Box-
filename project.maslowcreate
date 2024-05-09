@@ -53,7 +53,7 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.21413934426229506,
+                    "x": 0.2151639344262295,
                     "y": 0.1897590361445783,
                     "uniqueID": 815727,
                     "ioValues": [
@@ -128,8 +128,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4067622950819672,
-                    "y": 0.3795180722891566,
+                    "x": 0.4088114754098361,
+                    "y": 0.3855421686746988,
                     "uniqueID": 178147,
                     "ioValues": [
                         {
@@ -170,8 +170,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "finger joints 1",
-                    "x": 0.21209016393442626,
-                    "y": 0.575301204819277,
+                    "x": 0.21311475409836064,
+                    "y": 0.5572289156626505,
                     "uniqueID": 674867,
                     "ioValues": [
                         {
@@ -254,7 +254,7 @@
                         {
                             "atomType": "Pattern",
                             "name": "Pattern",
-                            "x": 0.5409836065573771,
+                            "x": 0.5389344262295082,
                             "y": 0.6234939759036144,
                             "uniqueID": 836968,
                             "ioValues": [
@@ -330,6 +330,13 @@
                             "ap2Primary": false,
                             "ap1ID": 836968,
                             "ap2ID": 737383
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": 891907,
+                            "ap2ID": 872426
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -357,7 +364,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 6.5
+                            "ioValue": 6.25
                         },
                         {
                             "name": "yDist",
