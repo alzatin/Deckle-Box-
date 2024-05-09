@@ -369,6 +369,31 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
+                    "x": 0.5799180327868853,
+                    "y": 0.3403614457831325,
+                    "uniqueID": 213386,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 802268
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0.375
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
                     "x": 0.6598360655737705,
                     "y": 0.17469879518072287,
                     "uniqueID": 396302,
@@ -394,8 +419,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4180327868852459,
-                    "y": 0.5572289156626505,
+                    "x": 0.4282786885245901,
+                    "y": 0.536144578313253,
                     "uniqueID": 514502,
                     "ioValues": [
                         {
@@ -408,36 +433,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0.5
                         },
                         {
                             "name": "zDist",
                             "ioValue": 5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.5799180327868853,
-                    "y": 0.3403614457831325,
-                    "uniqueID": 213386,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 802268
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0.375
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
                         }
                     ]
                 },
@@ -500,13 +500,13 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.7961065573770492,
-                    "y": 0.13855421686746988,
-                    "uniqueID": 975616,
+                    "x": 0.7377049180327868,
+                    "y": 0.3042168674698795,
+                    "uniqueID": 554851,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 396302
+                            "ioValue": 945502
                         }
                     ],
                     "selectedColorIndex": 2
@@ -527,6 +527,20 @@
                             "ioValue": 3
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.7961065573770492,
+                    "y": 0.13855421686746988,
+                    "uniqueID": 975616,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 396302
+                        }
+                    ],
+                    "selectedColorIndex": 2
                 },
                 {
                     "atomType": "Equation",
@@ -599,8 +613,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8729508196721311,
-                    "y": 0.3704819277108434,
+                    "x": 0.8698770491803279,
+                    "y": 0.3674698795180723,
                     "uniqueID": 475239,
                     "ioValues": [
                         {
@@ -676,20 +690,6 @@
                             "ioValue": 475239
                         }
                     ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.7377049180327868,
-                    "y": 0.3042168674698795,
-                    "uniqueID": 554851,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 945502
-                        }
-                    ],
-                    "selectedColorIndex": 2
                 }
             ],
             "allConnectors": [
@@ -849,6 +849,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 213386,
+                    "ap2ID": 945502
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 396302,
@@ -859,13 +866,6 @@
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 514502,
-                    "ap2ID": 945502
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 213386,
                     "ap2ID": 945502
                 },
                 {
@@ -926,9 +926,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 6",
                     "ap2Primary": false,
-                    "ap1ID": 975616,
+                    "ap1ID": 554851,
                     "ap2ID": 475239
                 },
                 {
@@ -937,6 +937,13 @@
                     "ap2Primary": true,
                     "ap1ID": 277667,
                     "ap2ID": 874408
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 975616,
+                    "ap2ID": 475239
                 },
                 {
                     "ap1Name": "result",
@@ -985,13 +992,6 @@
                     "ap2Name": "3D shape 8",
                     "ap2Primary": false,
                     "ap1ID": 556209,
-                    "ap2ID": 475239
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 6",
-                    "ap2Primary": false,
-                    "ap1ID": 554851,
                     "ap2ID": 475239
                 }
             ],
