@@ -370,6 +370,20 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "x/2",
+                    "x": 0.4989754098360656,
+                    "y": 0.4367469879518072,
+                    "uniqueID": 517419,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "currentEquation": "x/2"
+                },
+                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.576844262295082,
@@ -418,20 +432,6 @@
                             "ioValue": 5
                         }
                     ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "x/2",
-                    "x": 0.4989754098360656,
-                    "y": 0.4367469879518072,
-                    "uniqueID": 517419,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 0.75
-                        }
-                    ],
-                    "currentEquation": "x/2"
                 },
                 {
                     "atomType": "Input",
@@ -823,6 +823,13 @@
                     "ap2ID": 761605
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 517419,
+                    "ap2ID": 213386
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
@@ -835,13 +842,6 @@
                     "ap2Primary": false,
                     "ap1ID": 514502,
                     "ap2ID": 945502
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap2Primary": false,
-                    "ap1ID": 517419,
-                    "ap2ID": 213386
                 },
                 {
                     "ap1Name": "number or geometry",
