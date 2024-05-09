@@ -387,8 +387,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6065573770491803,
-                    "y": 0.5210843373493976,
+                    "x": 0.6075819672131147,
+                    "y": 0.4427710843373494,
                     "uniqueID": 945502,
                     "ioValues": [
                         {
@@ -407,10 +407,47 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 434268,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.8565573770491802,
+                    "y": 0.41867469879518077,
+                    "uniqueID": 475239,
                     "ioValues": [
                         {
-                            "name": "number or geometry",
-                            "ioValue": 802268
+                            "name": "3D shape 1",
+                            "ioValue": 945502
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 396302
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7008196721311476,
+                    "y": 0.2620481927710844,
+                    "uniqueID": 396302,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 945502
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 }
@@ -474,13 +511,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 802268,
-                    "ap2ID": 434268
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 802268,
@@ -506,6 +536,34 @@
                     "ap2Primary": false,
                     "ap1ID": 514502,
                     "ap2ID": 945502
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 956448,
+                    "ap2ID": 396302
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 945502,
+                    "ap2ID": 475239
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 945502,
+                    "ap2ID": 396302
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 396302,
+                    "ap2ID": 475239
                 }
             ],
             "fileTypeVersion": 1,
