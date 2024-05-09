@@ -119,8 +119,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "finger joints 1",
-                    "x": 0.3206967213114754,
-                    "y": 0.680722891566265,
+                    "x": 0.31864754098360654,
+                    "y": 0.6867469879518072,
                     "uniqueID": 674867,
                     "ioValues": [
                         {
@@ -129,7 +129,7 @@
                         },
                         {
                             "name": "Dado width",
-                            "ioValue": 0.75
+                            "ioValue": 0.5
                         },
                         {
                             "name": "wood thickness",
@@ -167,7 +167,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 0.75
+                                    "ioValue": 0.5
                                 },
                                 {
                                     "name": "y length",
@@ -312,8 +312,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5256147540983607,
-                    "y": 0.6536144578313253,
+                    "x": 0.5245901639344263,
+                    "y": 0.6746987951807228,
                     "uniqueID": 178147,
                     "ioValues": [
                         {
@@ -322,7 +322,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -5
+                            "ioValue": -7
                         },
                         {
                             "name": "yDist",
@@ -330,20 +330,20 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         }
                     ]
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.44979508196721313,
-                    "y": 0.7620481927710844,
+                    "x": 0.44569672131147536,
+                    "y": 0.7710843373493976,
                     "uniqueID": 484117,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 674867
                         },
                         {
                             "name": "x-axis degrees",
@@ -355,7 +355,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 90
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -408,6 +408,13 @@
                     "ap2Primary": false,
                     "ap1ID": 197274,
                     "ap2ID": 815727
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 674867,
+                    "ap2ID": 484117
                 },
                 {
                     "ap1Name": "geometry",
