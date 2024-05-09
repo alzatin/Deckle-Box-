@@ -1157,6 +1157,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "box length",
+                    "x": 0.013333333333333334,
+                    "y": 0.5120481927710844,
+                    "uniqueID": 652811,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.3401639344262295,
@@ -1174,31 +1182,15 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "box length",
-                    "x": 0.013333333333333334,
-                    "y": 0.5120481927710844,
-                    "uniqueID": 652811,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "wood thick",
-                    "x": 0.013333333333333334,
-                    "y": 0.7590361445783133,
-                    "uniqueID": 351613,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4948770491803279,
-                    "y": 0.4969879518072289,
+                    "x": 0.48258196721311475,
+                    "y": 0.4879518072289156,
                     "uniqueID": 477006,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 203634
                         },
                         {
                             "name": "xDist",
@@ -1206,13 +1198,21 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": -0.75
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "wood thick",
+                    "x": 0.013333333333333334,
+                    "y": 0.6987951807228915,
+                    "uniqueID": 351613,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -1221,6 +1221,34 @@
                     "y": 0.5,
                     "uniqueID": 988978,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x/2",
+                    "x": 0.3524590163934426,
+                    "y": 0.6325301204819277,
+                    "uniqueID": 939226,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        }
+                    ],
+                    "currentEquation": "x/2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-x",
+                    "x": 0.2879098360655738,
+                    "y": 0.7981927710843374,
+                    "uniqueID": 958348,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "currentEquation": "-x"
                 }
             ],
             "allConnectors": [
@@ -1247,10 +1275,45 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 652811,
+                    "ap2ID": 939226
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 203634,
+                    "ap2ID": 477006
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap2Primary": false,
                     "ap1ID": 351613,
                     "ap2ID": 203634
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 351613,
+                    "ap2ID": 958348
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 939226,
+                    "ap2ID": 477006
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 958348,
+                    "ap2ID": 477006
                 }
             ],
             "fileTypeVersion": 1,
