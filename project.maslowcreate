@@ -53,8 +53,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3452868852459016,
-                    "y": 0.24096385542168672,
+                    "x": 0.3432377049180328,
+                    "y": 0.2319277108433735,
                     "uniqueID": 650484,
                     "ioValues": [
                         {
@@ -280,7 +280,7 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.48463114754098363,
+                    "x": 0.48258196721311475,
                     "y": 0.21987951807228914,
                     "uniqueID": 802268,
                     "ioValues": [
@@ -297,7 +297,7 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3206967213114754,
+                    "x": 0.32274590163934425,
                     "y": 0.45481927710843373,
                     "uniqueID": 484117,
                     "ioValues": [
@@ -322,8 +322,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.43340163934426224,
-                    "y": 0.38253012048192775,
+                    "x": 0.42008196721311475,
+                    "y": 0.3614457831325301,
                     "uniqueID": 178147,
                     "ioValues": [
                         {
@@ -332,11 +332,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": -7
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.375
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -420,7 +420,7 @@
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.4282786885245901,
-                    "y": 0.536144578313253,
+                    "y": 0.5512048192771084,
                     "uniqueID": 514502,
                     "ioValues": [
                         {
@@ -613,8 +613,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8698770491803279,
-                    "y": 0.3674698795180723,
+                    "x": 0.8760245901639344,
+                    "y": 0.35542168674698793,
                     "uniqueID": 475239,
                     "ioValues": [
                         {
@@ -839,13 +839,6 @@
                     "ap2Primary": false,
                     "ap1ID": 517419,
                     "ap2ID": 213386
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap2Primary": false,
-                    "ap1ID": 517419,
-                    "ap2ID": 178147
                 },
                 {
                     "ap1Name": "geometry",
