@@ -1118,11 +1118,11 @@
             "ioValues": [
                 {
                     "name": "wood thick",
-                    "ioValue": 10
+                    "ioValue": 0.75
                 },
                 {
                     "name": "box width",
-                    "ioValue": 10
+                    "ioValue": 14
                 },
                 {
                     "name": "box length",
@@ -1132,6 +1132,14 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "box width",
+                    "x": 0.013333333333333334,
+                    "y": 0.3102409638554217,
+                    "uniqueID": 108484,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 0.19979508196721313,
@@ -1140,7 +1148,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 14
                         },
                         {
                             "name": "y length",
@@ -1149,10 +1157,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "box length",
+                    "x": 0.013333333333333334,
+                    "y": 0.5120481927710844,
+                    "uniqueID": 652811,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.38319672131147536,
-                    "y": 0.39457831325301207,
+                    "x": 0.3954918032786885,
+                    "y": 0.32228915662650603,
                     "uniqueID": 203634,
                     "ioValues": [
                         {
@@ -1161,9 +1177,17 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 0.75
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "wood thick",
+                    "x": 0.013333333333333334,
+                    "y": 0.7590361445783133,
+                    "uniqueID": 351613,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Move",
@@ -1197,33 +1221,16 @@
                     "y": 0.5,
                     "uniqueID": 988978,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "wood thick",
-                    "x": 0.013333333333333334,
-                    "y": 0.7590361445783133,
-                    "uniqueID": 351613,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "box width",
-                    "x": 0.013333333333333334,
-                    "y": 0.3102409638554217,
-                    "uniqueID": 108484,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "box length",
-                    "x": 0.013333333333333334,
-                    "y": 0.5120481927710844,
-                    "uniqueID": 652811,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 108484,
+                    "ap2ID": 893727
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -1233,24 +1240,17 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap2Primary": false,
-                    "ap1ID": 351613,
-                    "ap2ID": 203634
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x length",
-                    "ap2Primary": false,
-                    "ap1ID": 108484,
-                    "ap2ID": 893727
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "y length",
                     "ap2Primary": false,
                     "ap1ID": 652811,
                     "ap2ID": 893727
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 351613,
+                    "ap2ID": 203634
                 }
             ],
             "fileTypeVersion": 1,
@@ -1326,6 +1326,13 @@
             "ap2ID": 775580
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "wood thick",
+            "ap2Primary": false,
+            "ap1ID": 278847,
+            "ap2ID": 716573
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
@@ -1338,6 +1345,13 @@
             "ap2Primary": false,
             "ap1ID": 436088,
             "ap2ID": 775580
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "box width",
+            "ap2Primary": false,
+            "ap1ID": 436088,
+            "ap2ID": 716573
         },
         {
             "ap1Name": "Geometry",
@@ -1353,7 +1367,13 @@
             "ap1ID": 324413,
             "ap2ID": 775580
         },
-        null,
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "box length",
+            "ap2Primary": false,
+            "ap1ID": 324413,
+            "ap2ID": 716573
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
