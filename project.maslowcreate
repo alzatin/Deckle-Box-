@@ -161,8 +161,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.30225409836065575,
-                            "y": 0.3614457831325301,
+                            "x": 0.29815573770491804,
+                            "y": 0.3734939759036145,
                             "uniqueID": 878371,
                             "ioValues": [
                                 {
@@ -171,7 +171,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 0.75
+                                    "ioValue": 1
                                 }
                             ]
                         },
@@ -203,8 +203,8 @@
                         {
                             "atomType": "Pattern",
                             "name": "Pattern",
-                            "x": 0.5358606557377049,
-                            "y": 0.5783132530120482,
+                            "x": 0.5399590163934426,
+                            "y": 0.6024096385542169,
                             "uniqueID": 836968,
                             "ioValues": [
                                 {
@@ -274,13 +274,6 @@
                             "ap2ID": 836968
                         },
                         {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "y length",
-                            "ap2Primary": false,
-                            "ap1ID": 637060,
-                            "ap2ID": 878371
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
@@ -295,8 +288,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6547131147540983,
-                    "y": 0.4246987951807229,
+                    "x": 0.6567622950819673,
+                    "y": 0.42168674698795183,
                     "uniqueID": 802268,
                     "ioValues": [
                         {
@@ -312,8 +305,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5245901639344263,
-                    "y": 0.6746987951807228,
+                    "x": 0.5225409836065573,
+                    "y": 0.6626506024096386,
                     "uniqueID": 178147,
                     "ioValues": [
                         {
