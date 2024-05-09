@@ -1184,8 +1184,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.48258196721311475,
-                    "y": 0.4879518072289156,
+                    "x": 0.5399590163934426,
+                    "y": 0.3072289156626506,
                     "uniqueID": 477006,
                     "ioValues": [
                         {
@@ -1215,14 +1215,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 988978,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Equation",
                     "name": "x/2",
                     "x": 0.3524590163934426,
@@ -1249,6 +1241,19 @@
                         }
                     ],
                     "currentEquation": "-x"
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 988978,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 477006
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1286,6 +1291,13 @@
                     "ap2Primary": true,
                     "ap1ID": 203634,
                     "ap2ID": 477006
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 477006,
+                    "ap2ID": 988978
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1341,7 +1353,7 @@
                 },
                 {
                     "name": "3D shape 3",
-                    "ioValue": ""
+                    "ioValue": 650688
                 }
             ]
         },
@@ -1352,6 +1364,10 @@
             "y": 0.7349397590361446,
             "uniqueID": 650688,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 716573
+                },
                 {
                     "name": "xDist",
                     "ioValue": 0
