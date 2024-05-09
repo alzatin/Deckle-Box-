@@ -464,8 +464,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.34631147540983603,
-                    "y": 0.8222891566265061,
+                    "x": 0.34938524590163933,
+                    "y": 0.7198795180722891,
                     "uniqueID": 277667,
                     "ioValues": [
                         {
@@ -496,14 +496,18 @@
                         {
                             "name": "3D shape 3",
                             "ioValue": 142965
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 556209
                         }
                     ]
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.46618852459016397,
-                    "y": 0.8554216867469879,
+                    "x": 0.4784836065573771,
+                    "y": 0.7801204819277108,
                     "uniqueID": 874408,
                     "ioValues": [
                         {
@@ -527,8 +531,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7069672131147541,
-                    "y": 0.7590361445783133,
+                    "x": 0.6987704918032787,
+                    "y": 0.5813253012048193,
                     "uniqueID": 142965,
                     "ioValues": [
                         {
@@ -550,6 +554,20 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "x/2",
+                    "x": 0.5051229508196722,
+                    "y": 0.5963855421686747,
+                    "uniqueID": 664765,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        }
+                    ],
+                    "currentEquation": "x/2"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.98,
@@ -563,18 +581,47 @@
                     ]
                 },
                 {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.764344262295082,
+                    "y": 0.7801204819277108,
+                    "uniqueID": 556209,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 874408
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
-                    "name": "x/2",
-                    "x": 0.5102459016393442,
-                    "y": 0.9638554216867469,
-                    "uniqueID": 664765,
+                    "name": "x + y",
+                    "x": 0.5881147540983607,
+                    "y": 0.8945783132530121,
+                    "uniqueID": 761605,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
                         }
                     ],
-                    "currentEquation": "x/2"
+                    "currentEquation": "x + y"
                 }
             ],
             "allConnectors": [
@@ -769,6 +816,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 874408,
+                    "ap2ID": 556209
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 142965,
@@ -780,6 +834,20 @@
                     "ap2Primary": false,
                     "ap1ID": 664765,
                     "ap2ID": 142965
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 664765,
+                    "ap2ID": 556209
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 556209,
+                    "ap2ID": 475239
                 }
             ],
             "fileTypeVersion": 1,
