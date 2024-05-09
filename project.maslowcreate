@@ -70,8 +70,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.34631147540983603,
-                    "y": 0.24096385542168672,
+                    "x": 0.3442622950819672,
+                    "y": 0.23795180722891565,
                     "uniqueID": 650484,
                     "ioValues": [
                         {
@@ -329,8 +329,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.5040983606557378,
-                    "y": 0.25301204819277107,
+                    "x": 0.5174180327868853,
+                    "y": 0.20180722891566263,
                     "uniqueID": 802268,
                     "ioValues": [
                         {
@@ -387,8 +387,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7008196721311476,
-                    "y": 0.2620481927710844,
+                    "x": 0.7049180327868853,
+                    "y": 0.25,
                     "uniqueID": 396302,
                     "ioValues": [
                         {
@@ -401,7 +401,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": 9.5
                         },
                         {
                             "name": "zDist",
@@ -446,8 +446,8 @@
                 {
                     "atomType": "Equation",
                     "name": "x/2",
-                    "x": 0.5061475409836066,
-                    "y": 0.5933734939759037,
+                    "x": 0.5266393442622951,
+                    "y": 0.5481927710843374,
                     "uniqueID": 664765,
                     "ioValues": [
                         {
@@ -586,6 +586,19 @@
                     "currentEquation": "(-x/2)+y/2"
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 434268,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 475239
+                        }
+                    ]
+                },
+                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.771516393442623,
@@ -611,17 +624,22 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 434268,
+                    "atomType": "Equation",
+                    "name": "x - y/2",
+                    "x": 0.6424180327868853,
+                    "y": 0.14156626506024098,
+                    "uniqueID": 151247,
                     "ioValues": [
                         {
-                            "name": "number or geometry",
-                            "ioValue": 475239
+                            "name": "x",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
                         }
-                    ]
+                    ],
+                    "currentEquation": "x - y/2"
                 }
             ],
             "allConnectors": [
@@ -753,13 +771,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "yDist",
-                    "ap2Primary": false,
-                    "ap1ID": 956448,
-                    "ap2ID": 396302
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap2Primary": false,
                     "ap1ID": 956448,
@@ -771,6 +782,13 @@
                     "ap2Primary": false,
                     "ap1ID": 956448,
                     "ap2ID": 664765
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 956448,
+                    "ap2ID": 151247
                 },
                 {
                     "ap1Name": "geometry",
@@ -869,6 +887,13 @@
                     "ap2Primary": false,
                     "ap1ID": 556209,
                     "ap2ID": 475239
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 151247,
+                    "ap2ID": 396302
                 }
             ],
             "fileTypeVersion": 1,
