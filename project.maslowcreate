@@ -1157,14 +1157,6 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "box length",
-                    "x": 0.013333333333333334,
-                    "y": 0.5120481927710844,
-                    "uniqueID": 652811,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.3954918032786885,
@@ -1180,6 +1172,14 @@
                             "ioValue": 0.75
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "box length",
+                    "x": 0.013333333333333334,
+                    "y": 0.5120481927710844,
+                    "uniqueID": 652811,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
