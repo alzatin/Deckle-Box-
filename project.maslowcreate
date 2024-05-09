@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Deckle",
-            "x": 0.24590163934426232,
-            "y": 0.4126506024096385,
+            "x": 0.2838114754098361,
+            "y": 0.3192771084337349,
             "uniqueID": 775580,
             "ioValues": [
                 {
@@ -654,28 +654,10 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "(-x/2)+y/2",
-                    "x": 0.5922131147540984,
-                    "y": 0.8855421686746988,
-                    "uniqueID": 761605,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 0.75
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 14
-                        }
-                    ],
-                    "currentEquation": "(-x/2)+y/2"
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.9139344262295082,
-                    "y": 0.5421686746987951,
+                    "x": 0.867827868852459,
+                    "y": 0.5271084337349398,
                     "uniqueID": 475239,
                     "ioValues": [
                         {
@@ -695,6 +677,24 @@
                             "ioValue": 159963
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "(-x/2)+y/2",
+                    "x": 0.5922131147540984,
+                    "y": 0.8855421686746988,
+                    "uniqueID": 761605,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0.75
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 14
+                        }
+                    ],
+                    "currentEquation": "(-x/2)+y/2"
                 },
                 {
                     "atomType": "Move",
@@ -1048,13 +1048,6 @@
                     "ap2ID": 556209
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap2Primary": false,
-                    "ap1ID": 761605,
-                    "ap2ID": 556209
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
@@ -1067,6 +1060,13 @@
                     "ap2Primary": true,
                     "ap1ID": 475239,
                     "ap2ID": 192471
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 761605,
+                    "ap2ID": 556209
                 },
                 {
                     "ap1Name": "geometry",
