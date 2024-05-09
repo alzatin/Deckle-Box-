@@ -1,6 +1,6 @@
 {
     "atomType": "Molecule",
-    "name": "Deckle",
+    "name": "Mould",
     "x": 0,
     "y": 0,
     "uniqueID": 402583,
@@ -1086,10 +1086,105 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 772005,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 145665
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6239754098360656,
+            "y": 0.5301204819277108,
+            "uniqueID": 145665,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 775580
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                }
+            ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Mould",
+            "x": 0.2530737704918033,
+            "y": 0.6506024096385542,
+            "uniqueID": 716573,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 988978,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.45184426229508196,
+            "y": 0.7349397590361446,
+            "uniqueID": 650688,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 775580,
+            "ap2ID": 145665
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 145665,
+            "ap2ID": 772005
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 716573,
+            "ap2ID": 650688
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 650688,
+            "ap2ID": 145665
+        }
+    ],
     "fileTypeVersion": 1,
     "simplify": false,
     "unitsIndex": 0,
