@@ -280,8 +280,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.485655737704918,
-                    "y": 0.22891566265060243,
+                    "x": 0.48463114754098363,
+                    "y": 0.21987951807228914,
                     "uniqueID": 802268,
                     "ioValues": [
                         {
@@ -332,7 +332,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -7
+                            "ioValue": -6.625
                         },
                         {
                             "name": "yDist",
@@ -353,6 +353,31 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.6598360655737705,
+                    "y": 0.17469879518072287,
+                    "uniqueID": 396302,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 945502
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 9.25
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "x/2",
                     "x": 0.4989754098360656,
@@ -369,8 +394,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.576844262295082,
-                    "y": 0.3795180722891566,
+                    "x": 0.5809426229508197,
+                    "y": 0.3885542168674699,
                     "uniqueID": 213386,
                     "ioValues": [
                         {
@@ -456,29 +481,30 @@
                     ]
                 },
                 {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.6342213114754098,
-                    "y": 0.18674698795180725,
-                    "uniqueID": 396302,
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.6608606557377049,
+                    "y": 0.42771084337349397,
+                    "uniqueID": 945502,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 945502
+                            "name": "geometry2",
+                            "ioValue": 514502
                         },
                         {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 9.25
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
+                            "name": "geometry1",
+                            "ioValue": 213386
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.7817622950819673,
+                    "y": 0.1686746987951807,
+                    "uniqueID": 975616,
+                    "ioValues": [],
+                    "selectedColorIndex": 0
                 },
                 {
                     "atomType": "Extrude",
@@ -514,23 +540,6 @@
                         }
                     ],
                     "currentEquation": "(x/2)-y/2"
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.6598360655737705,
-                    "y": 0.4126506024096385,
-                    "uniqueID": 945502,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": 514502
-                        },
-                        {
-                            "name": "geometry1",
-                            "ioValue": 213386
-                        }
-                    ]
                 },
                 {
                     "atomType": "Move",
@@ -641,8 +650,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.771516393442623,
-                    "y": 0.7921686746987953,
+                    "x": 0.7745901639344263,
+                    "y": 0.7771084337349398,
                     "uniqueID": 556209,
                     "ioValues": [
                         {
@@ -662,15 +671,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.7817622950819673,
-                    "y": 0.1686746987951807,
-                    "uniqueID": 975616,
-                    "ioValues": [],
-                    "selectedColorIndex": 0
                 }
             ],
             "allConnectors": [
@@ -815,6 +815,13 @@
                     "ap2ID": 761605
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 396302,
+                    "ap2ID": 475239
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap2Primary": false,
@@ -879,10 +886,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 1",
                     "ap2Primary": false,
-                    "ap1ID": 396302,
+                    "ap1ID": 945502,
                     "ap2ID": 475239
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 945502,
+                    "ap2ID": 396302
                 },
                 {
                     "ap1Name": "geometry",
@@ -899,18 +913,11 @@
                     "ap2ID": 142965
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
                     "ap2Primary": false,
-                    "ap1ID": 945502,
-                    "ap2ID": 475239
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 945502,
-                    "ap2ID": 396302
+                    "ap1ID": 143134,
+                    "ap2ID": 178147
                 },
                 {
                     "ap1Name": "geometry",
