@@ -7,7 +7,15 @@
     "ioValues": [
         {
             "name": "wood thick",
+            "ioValue": 0.75
+        },
+        {
+            "name": "box length",
             "ioValue": 10
+        },
+        {
+            "name": "box width",
+            "ioValue": 14
         }
     ],
     "topLevel": true,
@@ -15,8 +23,8 @@
         {
             "atomType": "Molecule",
             "name": "Deckle",
-            "x": 0.2838114754098361,
-            "y": 0.3192771084337349,
+            "x": 0.2817622950819672,
+            "y": 0.29819277108433734,
             "uniqueID": 775580,
             "ioValues": [
                 {
@@ -1086,6 +1094,14 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Input",
+            "name": "wood thick",
+            "x": 0.013333333333333334,
+            "y": 0.3102409638554217,
+            "uniqueID": 278847,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Mould",
             "x": 0.2530737704918033,
@@ -1094,14 +1110,6 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 988978,
-                    "ioValues": []
-                },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
@@ -1160,6 +1168,14 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 988978,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1228,18 +1244,18 @@
         },
         {
             "atomType": "Input",
-            "name": "box width ",
+            "name": "box length",
             "x": 0.013333333333333334,
-            "y": 0.7228915662650602,
-            "uniqueID": 575830,
+            "y": 0.75,
+            "uniqueID": 324413,
             "ioValues": []
         },
         {
             "atomType": "Input",
-            "name": "wood thick",
+            "name": "box width",
             "x": 0.013333333333333334,
-            "y": 0.5,
-            "uniqueID": 278847,
+            "y": 0.4879518072289156,
+            "uniqueID": 436088,
             "ioValues": []
         }
     ],
@@ -1250,6 +1266,13 @@
             "ap2Primary": false,
             "ap1ID": 775580,
             "ap2ID": 145665
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "wood thickness",
+            "ap2Primary": false,
+            "ap1ID": 278847,
+            "ap2ID": 775580
         },
         {
             "ap1Name": "Geometry",
@@ -1271,6 +1294,20 @@
             "ap2Primary": false,
             "ap1ID": 650688,
             "ap2ID": 145665
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Box length",
+            "ap2Primary": false,
+            "ap1ID": 324413,
+            "ap2ID": 775580
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Box width",
+            "ap2Primary": false,
+            "ap1ID": 436088,
+            "ap2ID": 775580
         }
     ],
     "fileTypeVersion": 1,
