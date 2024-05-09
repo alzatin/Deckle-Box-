@@ -347,7 +347,7 @@
                     "atomType": "Input",
                     "name": "Box width",
                     "x": 0.013333333333333334,
-                    "y": 0.6265060240963854,
+                    "y": 0.6204819277108434,
                     "uniqueID": 197274,
                     "ioValues": []
                 },
@@ -444,6 +444,24 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "(-x/2)+y/2",
+                    "x": 0.4948770491803279,
+                    "y": 0.677710843373494,
+                    "uniqueID": 143134,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0.75
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 14
+                        }
+                    ],
+                    "currentEquation": "(-x/2)+y/2"
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.34631147540983603,
@@ -503,23 +521,10 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 434268,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 475239
-                        }
-                    ]
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5922131147540984,
-                    "y": 0.8222891566265061,
+                    "x": 0.5973360655737705,
+                    "y": 0.7921686746987953,
                     "uniqueID": 142965,
                     "ioValues": [
                         {
@@ -528,7 +533,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 6.75
+                            "ioValue": 6.625
                         },
                         {
                             "name": "yDist",
@@ -541,22 +546,17 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "x + y",
-                    "x": 0.5204918032786885,
-                    "y": 0.6927710843373494,
-                    "uniqueID": 143134,
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 434268,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 0.75
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "number or geometry",
+                            "ioValue": 475239
                         }
-                    ],
-                    "currentEquation": "x + y"
+                    ]
                 }
             ],
             "allConnectors": [
@@ -659,6 +659,13 @@
                     "ap2ID": 815727
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap2Primary": false,
+                    "ap1ID": 197274,
+                    "ap2ID": 143134
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
@@ -706,6 +713,13 @@
                     "ap2Primary": true,
                     "ap1ID": 464294,
                     "ap2ID": 277667
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 143134,
+                    "ap2ID": 142965
                 },
                 {
                     "ap1Name": "geometry",
