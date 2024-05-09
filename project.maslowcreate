@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 402583,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "wood thick",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -1081,17 +1086,94 @@
             "unitsIndex": 0
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 772005,
-            "ioValues": [
+            "atomType": "Molecule",
+            "name": "Mould",
+            "x": 0.2530737704918033,
+            "y": 0.6506024096385542,
+            "uniqueID": 716573,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "name": "number or geometry",
-                    "ioValue": 145665
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 988978,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.19774590163934425,
+                    "y": 0.3433734939759036,
+                    "uniqueID": 893727,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 14
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3801229508196721,
+                    "y": 0.4066265060240964,
+                    "uniqueID": 203634,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 893727
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.6741803278688525,
+                    "y": 0.4969879518072289,
+                    "uniqueID": 477006,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 }
-            ]
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 893727,
+                    "ap2ID": 203634
+                }
+            ],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Assembly",
@@ -1109,29 +1191,6 @@
                     "ioValue": ""
                 }
             ]
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Mould",
-            "x": 0.2530737704918033,
-            "y": 0.6506024096385542,
-            "uniqueID": 716573,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 988978,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "simplify": false,
-            "unitsIndex": 0
         },
         {
             "atomType": "Move",
@@ -1153,6 +1212,35 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 772005,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 145665
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "box width ",
+            "x": 0.013333333333333334,
+            "y": 0.7228915662650602,
+            "uniqueID": 575830,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "wood thick",
+            "x": 0.013333333333333334,
+            "y": 0.5,
+            "uniqueID": 278847,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -1164,18 +1252,18 @@
             "ap2ID": 145665
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 145665,
-            "ap2ID": 772005
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 716573,
             "ap2ID": 650688
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 145665,
+            "ap2ID": 772005
         },
         {
             "ap1Name": "geometry",
