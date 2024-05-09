@@ -33,7 +33,7 @@
             "ioValues": [
                 {
                     "name": "wood thickness",
-                    "ioValue": 0.8
+                    "ioValue": 0.75
                 },
                 {
                     "name": "Box height",
@@ -63,7 +63,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.8
+                            "ioValue": 0.75
                         }
                     ]
                 },
@@ -101,10 +101,77 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.3206967213114754,
+                    "y": 0.45481927710843373,
+                    "uniqueID": 484117,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 674867
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4067622950819672,
+                    "y": 0.3795180722891566,
+                    "uniqueID": 178147,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 484117
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": -7
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5040983606557378,
+                    "y": 0.25301204819277107,
+                    "uniqueID": 802268,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": 178147
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 650484
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "finger joints 1",
-                    "x": 0.21311475409836064,
-                    "y": 0.5873493975903614,
+                    "x": 0.21209016393442626,
+                    "y": 0.575301204819277,
                     "uniqueID": 674867,
                     "ioValues": [
                         {
@@ -117,7 +184,7 @@
                         },
                         {
                             "name": "wood thickness",
-                            "ioValue": 10
+                            "ioValue": 0.75
                         },
                         {
                             "name": "dado height",
@@ -145,8 +212,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.305327868852459,
-                            "y": 0.35843373493975905,
+                            "x": 0.30635245901639346,
+                            "y": 0.3463855421686747,
                             "uniqueID": 878371,
                             "ioValues": [
                                 {
@@ -162,7 +229,7 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.40061475409836067,
+                            "x": 0.4016393442622951,
                             "y": 0.4969879518072289,
                             "uniqueID": 872426,
                             "ioValues": [
@@ -270,73 +337,6 @@
                     "unitsIndex": 0
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.3206967213114754,
-                    "y": 0.4367469879518072,
-                    "uniqueID": 484117,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 674867
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 90
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.4067622950819672,
-                    "y": 0.3795180722891566,
-                    "uniqueID": 178147,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 484117
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": -7
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.5040983606557378,
-                    "y": 0.25301204819277107,
-                    "uniqueID": 802268,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": 178147
-                        },
-                        {
-                            "name": "geometry1",
-                            "ioValue": 650484
-                        }
-                    ]
-                },
-                {
                     "atomType": "Input",
                     "name": "Box width",
                     "x": 0.013333333333333334,
@@ -432,17 +432,17 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "wood thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 498619,
+                    "ap2ID": 674867
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap2Primary": false,
                     "ap1ID": 696437,
                     "ap2ID": 650484
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 674867,
-                    "ap2ID": 484117
                 },
                 {
                     "ap1Name": "geometry",
@@ -478,6 +478,13 @@
                     "ap2Primary": false,
                     "ap1ID": 802268,
                     "ap2ID": 945502
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 674867,
+                    "ap2ID": 484117
                 },
                 {
                     "ap1Name": "number or geometry",
