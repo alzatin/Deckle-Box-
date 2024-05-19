@@ -224,6 +224,27 @@
                             ]
                         },
                         {
+                            "atomType": "Input",
+                            "name": "wood thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.8433734939759037,
+                            "uniqueID": 891907,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 737383,
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1715963989464
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "GitHubMolecule",
                             "name": "Linear Pattern",
                             "x": 0.651672433679354,
@@ -246,27 +267,6 @@
                                 {
                                     "name": "distanceX",
                                     "ioValue": 1
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "wood thickness",
-                            "x": 0.013333333333333334,
-                            "y": 0.8433734939759037,
-                            "uniqueID": 891907,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.98,
-                            "y": 0.5,
-                            "uniqueID": 737383,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1715963989464
                                 }
                             ]
                         }
@@ -294,18 +294,18 @@
                             "ap2ID": 1715963989464
                         },
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1715963989464,
-                            "ap2ID": 737383
-                        },
-                        {
                             "ap1Name": "number or geometry",
                             "ap2Name": "height",
                             "ap2Primary": false,
                             "ap1ID": 891907,
                             "ap2ID": 872426
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1715963989464,
+                            "ap2ID": 737383
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -1250,24 +1250,6 @@
                     "currentEquation": "x/2"
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Scale ",
-                    "x": 0.5153328347045625,
-                    "y": 0.6112852664576802,
-                    "uniqueID": 1716147765103,
-                    "projectID": 801687224,
-                    "ioValues": [
-                        {
-                            "name": "scale",
-                            "ioValue": 0.95
-                        },
-                        {
-                            "name": "shape",
-                            "ioValue": 477006
-                        }
-                    ]
-                },
-                {
                     "atomType": "Equation",
                     "name": "-x",
                     "x": 0.2879098360655738,
@@ -1290,6 +1272,24 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
+                            "ioValue": 477006
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Scale ",
+                    "x": 0.5153328347045625,
+                    "y": 0.6112852664576802,
+                    "uniqueID": 1716147765103,
+                    "projectID": 801687224,
+                    "ioValues": [
+                        {
+                            "name": "scale",
+                            "ioValue": 0.95
+                        },
+                        {
+                            "name": "shape",
                             "ioValue": 477006
                         }
                     ]
