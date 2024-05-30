@@ -15,7 +15,7 @@
         },
         {
             "name": "box length",
-            "ioValue": 10
+            "ioValue": 8
         }
     ],
     "topLevel": true,
@@ -31,8 +31,8 @@
         {
             "atomType": "Molecule",
             "name": "Deckle",
-            "x": 0.33018867924528306,
-            "y": 0.27899686520376177,
+            "x": 0.3259958071278826,
+            "y": 0.26959247648902823,
             "uniqueID": 775580,
             "ioValues": [
                 {
@@ -49,7 +49,7 @@
                 },
                 {
                     "name": "Box length",
-                    "ioValue": 10
+                    "ioValue": 8
                 }
             ],
             "topLevel": false,
@@ -105,7 +105,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 8
                         },
                         {
                             "name": "y",
@@ -548,7 +548,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25
+                            "ioValue": 7.25
                         },
                         {
                             "name": "zDist",
@@ -612,7 +612,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ],
                     "currentEquation": "x/2"
@@ -640,7 +640,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 8
                         },
                         {
                             "name": "y length",
@@ -760,7 +760,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 5
+                            "ioValue": 4
                         },
                         {
                             "name": "zDist",
@@ -853,7 +853,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 5
+                            "ioValue": 4
                         },
                         {
                             "name": "zDist",
@@ -1264,7 +1264,7 @@
                 },
                 {
                     "name": "box length",
-                    "ioValue": 10
+                    "ioValue": 8
                 },
                 {
                     "name": "wood thick",
@@ -1294,7 +1294,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ]
                 },
@@ -1340,7 +1340,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ],
                     "currentEquation": "x/2"
@@ -1362,7 +1362,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 5
+                            "ioValue": 4
                         },
                         {
                             "name": "zDist",
@@ -1402,37 +1402,15 @@
                     "currentEquation": "-x"
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Scale ",
-                    "x": 0.565121412803532,
-                    "y": 0.6426332288401254,
-                    "uniqueID": 1716147765103,
-                    "ioValues": [],
-                    "topLevel": false,
-                    "allAtoms": [
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.98,
-                            "y": 0.5,
-                            "uniqueID": 1717028363789,
-                            "ioValues": []
-                        }
-                    ],
-                    "allConnectors": [],
-                    "unitsIndex": 0,
-                    "fileTypeVersion": 1
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6699779249448123,
-                    "y": 0.5862068965517242,
+                    "x": 0.6666666666666666,
+                    "y": 0.6081504702194358,
                     "uniqueID": 1716149288262,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1716147765103
+                            "ioValue": 1717028564560
                         },
                         {
                             "name": "xDist",
@@ -1440,7 +1418,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.25
+                            "ioValue": 0.2
                         },
                         {
                             "name": "zDist",
@@ -1457,7 +1435,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ],
                     "currentEquation": "x * .05/ 2"
@@ -1510,7 +1488,105 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 988978,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1716150081001
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Scale ",
+                    "x": 0.5335429769392034,
+                    "y": 0.6332288401253918,
+                    "uniqueID": 1717028564560,
+                    "ioValues": [
+                        {
+                            "name": "scale",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "shape",
+                            "ioValue": 203634
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Input",
+                            "name": "scale",
+                            "x": 0.013333333333333334,
+                            "y": 0.3730407523510972,
+                            "uniqueID": 1717028564466,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "shape",
+                            "x": 0.013333333333333334,
+                            "y": 0.5297805642633229,
+                            "uniqueID": 1717028564162,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Code",
+                            "name": "Code",
+                            "x": 0.6972972972972973,
+                            "y": 0.4231974921630094,
+                            "uniqueID": 1717028564016,
+                            "ioValues": [
+                                {
+                                    "name": "shape",
+                                    "ioValue": 203634
+                                },
+                                {
+                                    "name": "scale",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "code": "//Inputs:[shape, scale];\nconsole.log(shape)\nconsole.log(scale)\n\nreturn [library[shape].geometry[0].clone().scale(scale)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1717028564439,
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1717028564016
+                                }
+                            ]
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "scale",
+                            "ap2Primary": false,
+                            "ap1ID": 1717028564466,
+                            "ap2ID": 1717028564016
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "shape",
+                            "ap2Primary": false,
+                            "ap1ID": 1717028564162,
+                            "ap2ID": 1717028564016
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1717028564016,
+                            "ap2ID": 1717028564439
+                        }
+                    ],
+                    "gitHubUniqueID": 801687224,
+                    "unitsIndex": 0,
+                    "fileTypeVersion": 1
                 }
             ],
             "allConnectors": [
@@ -1557,6 +1633,13 @@
                     "ap2ID": 477006
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "shape",
+                    "ap2Primary": false,
+                    "ap1ID": 203634,
+                    "ap2ID": 1717028564560
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap2Primary": false,
@@ -1599,13 +1682,6 @@
                     "ap2ID": 477006
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1716147765103,
-                    "ap2ID": 1716149288262
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
@@ -1639,6 +1715,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1716150052338,
                     "ap2ID": 1716150081001
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1717028564560,
+                    "ap2ID": 1716149288262
                 }
             ],
             "unitsIndex": 0,
@@ -1717,7 +1800,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 772005,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 145665
+                }
+            ]
         }
     ],
     "allConnectors": [
