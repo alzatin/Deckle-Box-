@@ -31,8 +31,8 @@
         {
             "atomType": "Molecule",
             "name": "Deckle",
-            "x": 0.32834704562453254,
-            "y": 0.27586206896551724,
+            "x": 0.33018867924528306,
+            "y": 0.27899686520376177,
             "uniqueID": 775580,
             "ioValues": [
                 {
@@ -142,13 +142,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "finger joints 1",
-                    "x": 0.2295271049596309,
+                    "x": 0.22851153039832284,
                     "y": 0.4984326018808777,
                     "uniqueID": 674867,
                     "ioValues": [
                         {
                             "name": "Box height",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Dado width",
@@ -224,16 +224,23 @@
                             ]
                         },
                         {
+                            "atomType": "Input",
+                            "name": "wood thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.8433734939759037,
+                            "uniqueID": 891907,
+                            "ioValues": []
+                        },
+                        {
                             "atomType": "GitHubMolecule",
                             "name": "Linear Pattern",
-                            "x": 0.651672433679354,
+                            "x": 0.7180293501048218,
                             "y": 0.5172413793103449,
-                            "uniqueID": 1715963989464,
-                            "projectID": 801181204,
+                            "uniqueID": 1717028401413,
                             "ioValues": [
                                 {
                                     "name": "count",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 },
                                 {
                                     "name": "shape",
@@ -247,15 +254,131 @@
                                     "name": "distanceX",
                                     "ioValue": 1
                                 }
-                            ]
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "wood thickness",
-                            "x": 0.013333333333333334,
-                            "y": 0.8433734939759037,
-                            "uniqueID": 891907,
-                            "ioValues": []
+                            ],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Input",
+                                    "name": "count",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.4482758620689655,
+                                    "uniqueID": 1717028402007,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "shape",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.6394984326018809,
+                                    "uniqueID": 1717028401168,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "distanceY",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.7398119122257053,
+                                    "uniqueID": 1717028401848,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Code",
+                                    "name": "Code",
+                                    "x": 0.5830469644902635,
+                                    "y": 0.5235109717868338,
+                                    "uniqueID": 1717028401568,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry1",
+                                            "ioValue": 872426
+                                        },
+                                        {
+                                            "name": "count",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "distanceX",
+                                            "ioValue": 1
+                                        },
+                                        {
+                                            "name": "distanceY",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "code": "//Inputs:[geometry1, count, distanceX, distanceY]\n\n\nconst polarCopies = (shape, count, x, y) => {\n      const base = shape;\n      const copies = [];\n      for (let i = 0; i < count; i++) {\n        copies.push(base.clone().translate(i * x, i * y));\n      }\n      console.log(copies)\n      let fusedPattern = chainFuse(copies);\n      return fusedPattern;\n    };\n   \n  \nlet result = polarCopies(library[geometry1].geometry[0],count, distanceX, distanceY)\nconsole.log(result)\nreturn [result]\n"
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "distanceX",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.8087774294670846,
+                                    "uniqueID": 1717028401218,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Readme",
+                                    "name": "README",
+                                    "x": 0.6678121420389461,
+                                    "y": 0.7398119122257053,
+                                    "uniqueID": 1717028401257,
+                                    "ioValues": [],
+                                    "readmeText": "Readme text here",
+                                    "global": true
+                                },
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": 1717028401754,
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": 1717028401568
+                                        }
+                                    ]
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "count",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1717028402007,
+                                    "ap2ID": 1717028401568
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "geometry1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1717028401168,
+                                    "ap2ID": 1717028401568
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "distanceY",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1717028401848,
+                                    "ap2ID": 1717028401568
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1717028401568,
+                                    "ap2ID": 1717028401754
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "distanceX",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1717028401218,
+                                    "ap2ID": 1717028401568
+                                }
+                            ],
+                            "gitHubUniqueID": 801181204,
+                            "unitsIndex": 0,
+                            "fileTypeVersion": 1
                         },
                         {
                             "atomType": "Output",
@@ -266,7 +389,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1715963989464
+                                    "ioValue": 1717028401413
                                 }
                             ]
                         }
@@ -291,14 +414,7 @@
                             "ap2Name": "shape",
                             "ap2Primary": false,
                             "ap1ID": 872426,
-                            "ap2ID": 1715963989464
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1715963989464,
-                            "ap2ID": 737383
+                            "ap2ID": 1717028401413
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -306,11 +422,17 @@
                             "ap2Primary": false,
                             "ap1ID": 891907,
                             "ap2ID": 872426
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1717028401413,
+                            "ap2ID": 737383
                         }
                     ],
-                    "fileTypeVersion": 1,
-                    "simplify": false,
-                    "unitsIndex": 0
+                    "unitsIndex": 0,
+                    "fileTypeVersion": 1
                 },
                 {
                     "atomType": "Move",
@@ -674,8 +796,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8662053056516724,
-                    "y": 0.5391849529780565,
+                    "x": 0.860587002096436,
+                    "y": 0.5266457680250783,
                     "uniqueID": 475239,
                     "ioValues": [
                         {
@@ -717,8 +839,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7745901639344263,
-                    "y": 0.7771084337349398,
+                    "x": 0.779874213836478,
+                    "y": 0.7586206896551725,
                     "uniqueID": 556209,
                     "ioValues": [
                         {
@@ -772,8 +894,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.8581314878892734,
-                    "y": 0.8463949843260188,
+                    "x": 0.8574423480083857,
+                    "y": 0.8620689655172414,
                     "uniqueID": 1715964077886,
                     "ioValues": [
                         {
@@ -1118,9 +1240,8 @@
                     "ap2ID": 475239
                 }
             ],
-            "fileTypeVersion": 1,
-            "simplify": false,
-            "unitsIndex": 0
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Input",
@@ -1133,8 +1254,8 @@
         {
             "atomType": "Molecule",
             "name": "Mould",
-            "x": 0.2549668874172185,
-            "y": 0.6739811912225705,
+            "x": 0.25157232704402516,
+            "y": 0.6833855799373041,
             "uniqueID": 716573,
             "ioValues": [
                 {
@@ -1286,17 +1407,21 @@
                     "x": 0.565121412803532,
                     "y": 0.6426332288401254,
                     "uniqueID": 1716147765103,
-                    "projectID": 801687224,
-                    "ioValues": [
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
                         {
-                            "name": "scale",
-                            "ioValue": 0.95
-                        },
-                        {
-                            "name": "shape",
-                            "ioValue": 477006
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1717028363789,
+                            "ioValues": []
                         }
-                    ]
+                    ],
+                    "allConnectors": [],
+                    "unitsIndex": 0,
+                    "fileTypeVersion": 1
                 },
                 {
                     "atomType": "Move",
@@ -1385,12 +1510,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 988978,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1716150081001
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1459,13 +1579,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "shape",
-                    "ap2Primary": false,
-                    "ap1ID": 477006,
-                    "ap2ID": 1716147765103
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 477006,
@@ -1528,9 +1641,8 @@
                     "ap2ID": 1716150081001
                 }
             ],
-            "fileTypeVersion": 1,
-            "simplify": false,
-            "unitsIndex": 0
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Input",
@@ -1605,12 +1717,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 772005,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 145665
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -1692,8 +1799,7 @@
             "ap2ID": 1716150140420
         }
     ],
-    "fileTypeVersion": 1,
-    "simplify": false,
     "unitsIndex": 0,
+    "fileTypeVersion": 1,
     "filetypeVersion": 1
 }
