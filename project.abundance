@@ -31,8 +31,8 @@
         {
             "atomType": "Molecule",
             "name": "Deckle",
-            "x": 0.3588748787584869,
-            "y": 0.26959247648902823,
+            "x": 0.3530552861299709,
+            "y": 0.2852664576802508,
             "uniqueID": 775580,
             "ioValues": [
                 {
@@ -770,8 +770,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.8661493695441319,
-                    "y": 0.4952978056426332,
+                    "x": 0.8845780795344327,
+                    "y": 0.5015673981191223,
                     "uniqueID": 1718559492371,
                     "ioValues": [
                         {
@@ -1711,10 +1711,6 @@
             "uniqueID": 1718559566603,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
-                    "ioValue": 650688
-                },
-                {
                     "name": "3D shape 2",
                     "ioValue": 775580
                 }
@@ -1807,13 +1803,6 @@
             "ap2Primary": true,
             "ap1ID": 716573,
             "ap2ID": 650688
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 650688,
-            "ap2ID": 1718559566603
         },
         {
             "ap1Name": "geometry",
