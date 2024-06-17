@@ -31,8 +31,8 @@
         {
             "atomType": "Molecule",
             "name": "Deckle",
-            "x": 0.3530552861299709,
-            "y": 0.2852664576802508,
+            "x": 0.34723569350145495,
+            "y": 0.2946708463949843,
             "uniqueID": 775580,
             "ioValues": [
                 {
@@ -711,11 +711,7 @@
                             "name": "geometry",
                             "ioValue": 975616
                         }
-                    ],
-                    "tags": [
-                        ""
-                    ],
-                    "cutTag": false
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -764,31 +760,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Join",
-                    "name": "Assembly",
-                    "x": 0.8845780795344327,
-                    "y": 0.5015673981191223,
-                    "uniqueID": 1718559492371,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 142965
-                        },
-                        {
-                            "name": "3D shape 6",
-                            "ioValue": 556209
-                        },
-                        {
-                            "name": "3D shape 7",
-                            "ioValue": 554851
-                        },
-                        {
-                            "name": "3D shape 8",
-                            "ioValue": 941297
                         }
                     ]
                 },
@@ -844,7 +815,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1718559492371
+                            "ioValue": 1718644652402
                         }
                     ]
                 },
@@ -858,9 +829,12 @@
                         {
                             "name": "geometry",
                             "ioValue": 475239
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Tag String"
                         }
-                    ],
-                    "tagIndex": 0
+                    ]
                 },
                 {
                     "atomType": "CutLayout",
@@ -874,8 +848,33 @@
                             "ioValue": 475239
                         },
                         {
-                            "name": "Spacing",
-                            "ioValue": 15
+                            "name": "Material Thickness",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.8933074684772065,
+                    "y": 0.5015673981191223,
+                    "uniqueID": 1718644652402,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 556209
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 142965
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 554851
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 941297
                         }
                     ]
                 }
@@ -1093,10 +1092,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 7",
+                    "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 554851,
-                    "ap2ID": 1718559492371
+                    "ap2ID": 1718644652402
                 },
                 {
                     "ap1Name": "geometry",
@@ -1135,10 +1134,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 8",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 941297,
-                    "ap2ID": 1718559492371
+                    "ap2ID": 1718644652402
                 },
                 {
                     "ap1Name": "geometry",
@@ -1156,17 +1155,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 142965,
-                    "ap2ID": 1718559492371
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1718559492371,
-                    "ap2ID": 434268
+                    "ap2ID": 1718644652402
                 },
                 {
                     "ap1Name": "result",
@@ -1177,10 +1169,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 6",
+                    "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 556209,
-                    "ap2ID": 1718559492371
+                    "ap2ID": 1718644652402
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1718644652402,
+                    "ap2ID": 434268
                 }
             ],
             "unitsIndex": 0,
@@ -1704,19 +1703,6 @@
             ]
         },
         {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.7769156159068865,
-            "y": 0.5015673981191223,
-            "uniqueID": 1718559566603,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 775580
-                }
-            ]
-        },
-        {
             "atomType": "CutLayout",
             "name": "Cut Layout",
             "x": 0.7350993377483444,
@@ -1728,8 +1714,8 @@
                     "ioValue": 145665
                 },
                 {
-                    "name": "Spacing",
-                    "ioValue": 20
+                    "name": "Material Thickness",
+                    "ioValue": ""
                 }
             ]
         },
@@ -1739,12 +1725,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 772005,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718559566603
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -1761,13 +1742,6 @@
             "ap2Primary": false,
             "ap1ID": 278847,
             "ap2ID": 716573
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 775580,
-            "ap2ID": 1718559566603
         },
         {
             "ap1Name": "number or geometry",
@@ -1803,13 +1777,6 @@
             "ap2Primary": true,
             "ap1ID": 716573,
             "ap2ID": 650688
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718559566603,
-            "ap2ID": 772005
         }
     ],
     "unitsIndex": 0,
