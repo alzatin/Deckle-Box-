@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "wood thick",
-            "ioValue": 0.75
+            "ioValue": -1.5
         },
         {
             "name": "box width",
@@ -37,11 +37,11 @@
             "ioValues": [
                 {
                     "name": "wood thickness",
-                    "ioValue": 0.75
+                    "ioValue": -1.5
                 },
                 {
                     "name": "Box height",
-                    "ioValue": 3
+                    "ioValue": 2
                 },
                 {
                     "name": "Box width",
@@ -67,7 +67,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         }
                     ]
                 },
@@ -92,7 +92,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 3
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -109,7 +109,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         }
                     ],
                     "currentEquation": "x - y"
@@ -185,7 +185,7 @@
                         },
                         {
                             "name": "wood thickness",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         }
                     ],
                     "topLevel": false,
@@ -244,7 +244,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 0.75
+                                    "ioValue": -1.5
                                 }
                             ]
                         },
@@ -440,7 +440,6 @@
                                 }
                             ],
                             "gitHubUniqueID": 801181204,
-                            "unitsIndex": 0,
                             "fileTypeVersion": 1
                         },
                         {
@@ -494,7 +493,6 @@
                             "ap2ID": 737383
                         }
                     ],
-                    "unitsIndex": 0,
                     "fileTypeVersion": 1
                 },
                 {
@@ -539,7 +537,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         }
                     ],
                     "currentEquation": "x/2"
@@ -561,7 +559,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.375
+                            "ioValue": -0.75
                         },
                         {
                             "name": "zDist",
@@ -586,7 +584,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 6.25
+                            "ioValue": 8.5
                         },
                         {
                             "name": "zDist",
@@ -682,7 +680,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         }
                     ]
                 },
@@ -716,7 +714,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 3
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -729,7 +727,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         },
                         {
                             "name": "y",
@@ -776,7 +774,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -11.125
+                            "ioValue": -12.25
                         },
                         {
                             "name": "yDist",
@@ -827,7 +825,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 11.125
+                            "ioValue": 12.25
                         },
                         {
                             "name": "yDist",
@@ -848,7 +846,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         },
                         {
                             "name": "y",
@@ -1211,7 +1209,6 @@
                     "ap2ID": 556209
                 }
             ],
-            "unitsIndex": 0,
             "fileTypeVersion": 1,
             "compiledBom": []
         },
@@ -1248,7 +1245,7 @@
                 },
                 {
                     "name": "wood thick",
-                    "ioValue": 0.75
+                    "ioValue": -1.5
                 }
             ],
             "topLevel": false,
@@ -1291,7 +1288,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         }
                     ]
                 },
@@ -1346,7 +1343,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -0.75
+                            "ioValue": 1.5
                         }
                     ]
                 },
@@ -1441,7 +1438,6 @@
                         }
                     ],
                     "gitHubUniqueID": 801687224,
-                    "unitsIndex": 0,
                     "fileTypeVersion": 1
                 },
                 {
@@ -1470,7 +1466,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0.75
+                            "ioValue": -1.5
                         }
                     ],
                     "currentEquation": "-x"
@@ -1705,7 +1701,6 @@
                     "ap2ID": 1716150081001
                 }
             ],
-            "unitsIndex": 0,
             "fileTypeVersion": 1,
             "compiledBom": []
         },
@@ -1855,7 +1850,6 @@
             "ap2ID": 772005
         }
     ],
-    "unitsIndex": 0,
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
