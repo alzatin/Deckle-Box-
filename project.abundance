@@ -7,15 +7,15 @@
     "ioValues": [
         {
             "name": "wood thick",
-            "ioValue": -1.5
+            "ioValue": 0.75
         },
         {
             "name": "box width",
-            "ioValue": 23
+            "ioValue": 13
         },
         {
             "name": "box length",
-            "ioValue": 7
+            "ioValue": 9
         }
     ],
     "topLevel": true,
@@ -37,19 +37,19 @@
             "ioValues": [
                 {
                     "name": "wood thickness",
-                    "ioValue": -1.5
+                    "ioValue": 0.75
                 },
                 {
                     "name": "Box height",
-                    "ioValue": 2
+                    "ioValue": 3
                 },
                 {
                     "name": "Box width",
-                    "ioValue": 23
+                    "ioValue": 13
                 },
                 {
                     "name": "Box length",
-                    "ioValue": 7
+                    "ioValue": 9
                 }
             ],
             "topLevel": false,
@@ -63,11 +63,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 23
+                            "ioValue": 13
                         },
                         {
                             "name": "y length",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         }
                     ]
                 },
@@ -92,7 +92,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 2
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -105,11 +105,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 7
+                            "ioValue": 9
                         },
                         {
                             "name": "y",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         }
                     ],
                     "currentEquation": "x - y"
@@ -167,25 +167,25 @@
                 {
                     "atomType": "Molecule",
                     "name": "finger joints 1",
-                    "x": 0.22457200402819738,
-                    "y": 0.5062111801242236,
+                    "x": 0.22453222453222454,
+                    "y": 0.4954407294832827,
                     "uniqueID": 674867,
                     "ioValues": [
                         {
                             "name": "Box height",
-                            "ioValue": 1
+                            "ioValue": 3
                         },
                         {
                             "name": "Dado width",
-                            "ioValue": 0.5
+                            "ioValue": 0.25
                         },
                         {
                             "name": "dado height",
-                            "ioValue": 0.75
+                            "ioValue": 0.5
                         },
                         {
                             "name": "wood thickness",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         }
                     ],
                     "topLevel": false,
@@ -207,7 +207,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.25
                                 },
                                 {
                                     "name": "y length",
@@ -244,7 +244,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": -1.5
+                                    "ioValue": 0.75
                                 }
                             ]
                         },
@@ -537,7 +537,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         }
                     ],
                     "currentEquation": "x/2"
@@ -559,7 +559,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -0.75
+                            "ioValue": 0.375
                         },
                         {
                             "name": "zDist",
@@ -584,7 +584,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 8.5
+                            "ioValue": 8.25
                         },
                         {
                             "name": "zDist",
@@ -648,7 +648,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 7
+                            "ioValue": 9
                         }
                     ],
                     "currentEquation": "x/2"
@@ -676,11 +676,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 7
+                            "ioValue": 9
                         },
                         {
                             "name": "y length",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         }
                     ]
                 },
@@ -714,7 +714,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 2
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -727,11 +727,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         },
                         {
                             "name": "y",
-                            "ioValue": 23
+                            "ioValue": 13
                         }
                     ],
                     "currentEquation": "(x/2)-y/2"
@@ -774,11 +774,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -12.25
+                            "ioValue": -6.125
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 3.5
+                            "ioValue": 4.5
                         },
                         {
                             "name": "zDist",
@@ -825,11 +825,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 12.25
+                            "ioValue": 6.125
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 3.5
+                            "ioValue": 4.5
                         },
                         {
                             "name": "zDist",
@@ -846,11 +846,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         },
                         {
                             "name": "y",
-                            "ioValue": 23
+                            "ioValue": 13
                         }
                     ],
                     "currentEquation": "(-x/2)+y/2"
@@ -1237,15 +1237,15 @@
             "ioValues": [
                 {
                     "name": "box width",
-                    "ioValue": 23
+                    "ioValue": 13
                 },
                 {
                     "name": "box length",
-                    "ioValue": 7
+                    "ioValue": 9
                 },
                 {
                     "name": "wood thick",
-                    "ioValue": -1.5
+                    "ioValue": 0.75
                 }
             ],
             "topLevel": false,
@@ -1267,11 +1267,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 23
+                            "ioValue": 13
                         },
                         {
                             "name": "y length",
-                            "ioValue": 7
+                            "ioValue": 9
                         }
                     ]
                 },
@@ -1288,7 +1288,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         }
                     ]
                 },
@@ -1317,7 +1317,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 7
+                            "ioValue": 9
                         }
                     ],
                     "currentEquation": "x/2"
@@ -1339,11 +1339,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 3.5
+                            "ioValue": 4.5
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 1.5
+                            "ioValue": -0.75
                         }
                     ]
                 },
@@ -1466,7 +1466,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -1.5
+                            "ioValue": 0.75
                         }
                     ],
                     "currentEquation": "-x"
@@ -1488,7 +1488,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.17500000000000002
+                            "ioValue": 0.225
                         },
                         {
                             "name": "zDist",
@@ -1522,7 +1522,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 7
+                            "ioValue": 9
                         }
                     ],
                     "currentEquation": "x * .05/ 2"
